@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import PagesController from './PagesController'
+require('dotenv').config()
 
 export default class App extends Component {
 
@@ -12,11 +13,7 @@ export default class App extends Component {
     render() {
         return (
             <div className="app">
-                <Header />
-
-                <PagesController page={this.state.page}/>
-                
-                <Footer />
+                <i className="fab fa-google fa-7x "></i>
             </div>
         )
     }
