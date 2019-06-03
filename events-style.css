@@ -1,0 +1,95 @@
+.header-container{
+    background-image: linear-gradient(rgba(255 ,255 ,255 , 0.8),rgba(255 ,255 ,255 , 0.8)),url('src/images/dsc-workshop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-title{
+    padding: 88px 5px 20px 5px;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+@media screen and (min-width: 768px){
+    .header-title{
+        padding: 100px 100px 20px;
+        text-align: start;
+        font-size: 5em;
+    }
+}
+.next-event-container{
+    border: 1px solid black;
+}
+.fancy-title{
+    font-size: 28px;
+    font-family: 'Roboto',sans-serif;
+}
+.hz-divider{
+    height: 1px;
+}
+.title{
+    font-size: 28px;
+    font-family: 'Raleway',sans-serif;
+}
+.align-center{
+    text-align: center;
+}
+.align-end{
+    text-align: end;
+}
+.italic{
+    font-style: italic;
+}
+.containers-margin{
+    margin: 20px 0px 10px 0px;
+}
+.subtitle{
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 768px){
+    .next-event-container{
+        width: 27vw;
+    }
+    .about-events-container{
+        width: 50vw;
+        flex: 1;
+    }
+    .sub-header{
+        display: flex;
+    }
+    .side-margin{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.text-content{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    line-break: 18px;
+}
+
+.event-image img{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .flex-row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .event-container{
+        width: 35vw;
+    }
+    .padding-left-desktop{
+        padding-left: 100px; 
+    }
+}
+body::-webkit-scrollbar {
+    width: 0em;
+    background: transparent;
+}
