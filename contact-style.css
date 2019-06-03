@@ -1,0 +1,49 @@
+.text-field{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    max-width: 360px;
+    font-family: 'Raleway',sans-serif;
+    margin: 0 auto;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.small-hz-divider{
+    height: 1px;
+    width: 90vw;
+    margin:0 auto;
+}
+@media screen and (min-width:768px){
+    .small-hz-divider{
+        width: 60vw;
+    }
+}
+.message{
+    height: 40vh;
+}
+
+.send-button{
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 150px;
+    border-radius: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #ffebee;
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.send-button:hover{
+    background-color: black;
+    color: white;
+    /* display: none; */
+}
