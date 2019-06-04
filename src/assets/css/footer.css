@@ -1,0 +1,54 @@
+.containers-padding{
+    padding: 44px 5px 44px 5px;  
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 2em;
+}
+.social a{
+    color: #455a64;
+    text-decoration: none;
+}
+.fa-heart{
+    color:#e57373;
+}
+.fa-facebook:hover{
+    color: #0d47a1;
+}
+.fa-linkedin:hover{
+    color: #29b6f6;
+}
+.fa-github:hover{
+    color: black;
+}
+.fa-slack:hover{
+    color: #e64a19;
+}
+.fa-instagram:hover{
+    color: #c2185b;
+}
+.footer-title{
+    font-size: 2em;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+}
+.small-text{
+    font-size: 1.5em;
+    color: white;
+}
+.blue-grey-800{
+    background-color: #37474f;
+}
+.blue-grey-100{
+    background-color: #cfd8dc; /* blue-grey-100*/
+}
+@media screen and (max-width:768px){
+    .small-text{
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.hero-container{
+    width: 100vw;
+    text-align: center;
+    padding-top:5vh;
+    padding-bottom: 5vh;
+}
+.hero-text{
+    text-align: center;
+    font-size: 2em;
+}
+.header{
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+}
+.containers-padding{
+    padding: 44px 5px 44px 5px;  
+}
+.title{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    color: white;
+}
+.description{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-family: 'Monsterrat', sans-serif;
+    text-align: justify;
+    color: #c8e6c9;
+}
+@media screen and (min-width:768px){
+    .title{
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 25px;
+    }
+    .description{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .containers-padding{
+        padding: 85px 2px 85px;
+    }   
+}
+.image-section img{
+    width: 100%;
+}
+@media screen and (min-width:768px){
+    .row-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .text-section{
+        width:40vw;
+    }
+    .image-section{
+        width: 40vw;
+    }
+}
+@media screen and (min-width:768px){
+    .order-2{
+        order: 2;
+    }
+    .order-1{
+        order: 1;
+    }
+    .justify-start{
+        justify-content: start;
+    }
+    .margin-left{
+        margin-left: 20px;
+    }
+}
+body::-webkit-scrollbar {
+    width: 0em;
+    background: transparent;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Monsterrat',sans-serif;
+    /* font-weight: bold; */
+}
+
+.button-container a{
+    margin-right: 8px;
+}
+.button-container:hover{
+    background-color: #cfd8dc; /* blue-grey-100*/
+}
+.button-container:hover a{
+    color: black;
+}
+.button-container:hover .material-icons{
+    color: black;
+}
+.text-container{
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.address{
+    color: white;
+    font-size: 1.2em;
+    margin-bottom:10px;
+    font-family: 'Raleway',sans-serif;
+    text-align: start;
+}
+.location-button{
+    margin-top: 10px;
+}
