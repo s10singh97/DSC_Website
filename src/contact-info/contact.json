@@ -1,0 +1,31 @@
+{
+    "DSC_CLUB":{
+        "facebook":"https://www.facebook.com/dscjaipur"
+    },
+    "Team-Members":{
+        "Shashwat-singh":{
+            "LinkedIn":"https://www.linkedin.com/in/shashwat-singh-55a570149/",
+            "GitHub":"https://github.com/s10singh97/"
+        },
+        "Mayank-Goyal":{
+            "LinkedIn":"https://www.linkedin.com/in/mayank-goyal-92bb9882/",
+            "GitHub":"https://github.com/heromayank2"
+        },
+        "Raghav-Garg":{
+            "LinkedIn":"https://www.linkedin.com/in/raghav-garg-bab42b16a/",
+            "GitHub":"https://github.com/rvgarg"
+        },
+        "Ayush-Aggarwal":{
+            "LinkedIn":"N/A",
+            "GitHub":"https://github.com/RIPTIDEKING"
+        },
+        "Pranav-Sindura":{
+            "LinkedIn":"https://www.linkedin.com/in/pranav-sindura-197419184/",
+            "GitHub":"N/A"
+        },
+        "Shaktiraj-Daudra":{
+            "LinkedIn":"https://www.linkedin.com/in/shaktiraj-daudra-974295185/",
+            "GitHub":"https://github.com/sxillocc"
+        }
+    }
+}
