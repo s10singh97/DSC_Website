@@ -30,6 +30,9 @@
     text-align: justify;
     color: white;
 }
+.align-center{
+    text-align: center;
+}
 .description{
     font-size: 16px;
     line-height: 22px;
@@ -67,6 +70,9 @@
     }
     .image-section{
         width: 40vw;
+    }
+    .small-width{
+        width: 30vw;
     }
 }
 @media screen and (min-width:768px){
@@ -128,4 +134,16 @@ body::-webkit-scrollbar {
 }
 .location-button{
     margin-top: 10px;
+}
+.fancy-title{
+    font-size: 28px;
+    font-family: 'Raleway',sans-serif;
+    margin-bottom:50px;
+}
+@media screen and (max-width:768px){
+    .fancy-title{
+        font-size: 20px;
+        font-family: 'Raleway',sans-serif;
+        margin-bottom:30px;
+    }    
 }
