@@ -9,4 +9,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes To Be Made
 
+app.use(express.static('../src/assets/'))
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
