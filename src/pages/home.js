@@ -7,11 +7,11 @@ export default class Home extends Component {
         return (
             <div>
             <Header />
-            <div class="hero-container">
-            <div class="hero-text">
+            <div className="hero-container">
+            <div className="hero-text">
                 <img src={require("../assets/images/dsc-logo.png")} alt="DSC LOGO"/>
-                <div class="hero-title">Development Student Club</div>
-                <div class="hero-subtitle">IIIT Kota</div>
+                <div className="hero-title">Development Student Club</div>
+                <div className="hero-subtitle">IIIT Kota</div>
             </div>
         </div>
             <div className="row-container containers-padding blue-900">
