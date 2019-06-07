@@ -4,19 +4,17 @@
 }
 .hero-container{
     width: 100vw;
-    text-align: center;
-    padding-top:5vh;
+    padding-top:17vh;
     padding-bottom: 5vh;
+    font-family: 'Raleway',sans-serif;
+    background-image: linear-gradient(rgba(255 ,255 ,255 , 0.8),rgba(255 ,255 ,255 , 0.8)),url('../images/Form_Header_v2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .hero-text{
     text-align: center;
     font-size: 2em;
-}
-.header{
-   background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Raleway', sans-serif;
 }
 .containers-padding{
     padding: 44px 5px 44px 5px;  
@@ -35,52 +33,10 @@
     margin-bottom: 20px;
     font-family: 'Monsterrat', sans-serif;
     text-align: justify;
-    color: #c8e6c9;
-}
-@media screen and (min-width:768px){
-    .title{
-        font-size: 48px;
-        line-height: 58px;
-        margin-bottom: 25px;
-    }
-    .description{
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 20px;
-    }
-    .containers-padding{
-        padding: 85px 2px 85px;
-    }   
+    color: white;
 }
 .image-section img{
     width: 100%;
-}
-@media screen and (min-width:768px){
-    .row-container{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .text-section{
-        width:40vw;
-    }
-    .image-section{
-        width: 40vw;
-    }
-}
-@media screen and (min-width:768px){
-    .order-2{
-        order: 2;
-    }
-    .order-1{
-        order: 1;
-    }
-    .justify-start{
-        justify-content: start;
-    }
-    .margin-left{
-        margin-left: 20px;
-    }
 }
 body::-webkit-scrollbar {
     width: 0em;
@@ -89,21 +45,21 @@ body::-webkit-scrollbar {
 .button-container{
     display: flex;
     align-items: center;
-    padding: 5px 15px 5px 15px;
+    padding: 9px 15px 9px 15px;
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.2s ease-in;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: 'Monsterrat',sans-serif;
-    /* font-weight: bold; */
+    font-family: 'Roboto',sans-serif;
+    transition: all 0.2s ease-in;
 }
-
 .button-container a{
     margin-right: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .button-container:hover{
-    background-color: #cfd8dc; /* blue-grey-100*/
+    background-color: white;
 }
 .button-container:hover a{
     color: black;
@@ -127,4 +83,51 @@ body::-webkit-scrollbar {
 }
 .location-button{
     margin-top: 10px;
+}
+.m-top{
+    margin-top:12vh;
+}
+#about-us{
+    padding: calc(12vh + 44px) 5px 44px 5px;
+}
+@media screen and (min-width:768px){
+    .row-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .text-section{
+        width:40vw;
+    }
+    .image-section{
+        width: 40vw;
+    }
+    .order-2{
+        order: 2;
+    }
+    .order-1{
+        order: 1;
+    }
+    .justify-start{
+        justify-content: start;
+    }
+    .margin-left{
+        margin-left: 20px;
+    }
+    #about-us{
+        padding: calc(12vh + 85px) 2px 85px 2px;
+    }
+    .title{
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 25px;
+    }
+    .description{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .containers-padding{
+        padding: 85px 2px 85px;
+    } 
 }

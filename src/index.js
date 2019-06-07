@@ -16,7 +16,7 @@ const routing = (
         <Route path="/events" component={Events} />
         <Route path="/contact" component={Contact} />
         <Route path = "/team" component = {Team} />
-       <Route path = "/about" component = {About} />
+        <Route path = "/about" component = {About} />
       </div>
     </Router>
   )

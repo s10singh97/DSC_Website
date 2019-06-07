@@ -5,7 +5,7 @@
     border-radius: 25px;
     border: none;
     outline: none;
-    max-width: 360px;
+    max-width: 320px;
     font-family: 'Raleway',sans-serif;
     margin: 0 auto;
 }
@@ -28,7 +28,6 @@
 .message{
     height: 40vh;
 }
-
 .send-button{
     margin: 0 auto;
     padding: 10px;
@@ -36,14 +35,19 @@
     border-radius: 40px;
     margin-top: 10px;
     font-size: 20px;
-    background-color: #ffebee;
-    color: black;
+    background-color: #4c8c4a;
+    color: white;
     font-family: 'Raleway',sans-serif;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
 .send-button:hover{
-    background-color: black;
+    background-color: #003300;
     color: white;
     /* display: none; */
+}
+@media screen and (min-width:768px){
+    .large-font{
+        font-size: 48px;
+    }
 }

@@ -13,11 +13,6 @@
 .italic{
     font-style: italic;
 }
-@media screen and (min-width: 768px){
-    .padding-left{
-        padding-left: 150px;
-    }
-}
 .Title{
     font-size: 28px;
     line-height: 38px;
@@ -29,9 +24,6 @@
     line-height: 22px;
     /* margin-bottom: 20px; */
     font-family: 'Raleway', sans-serif;
-}
-.align-center{
-    text-align: center;
 }
 .hz-divider{
     width: 90vw;
@@ -48,6 +40,10 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.small-container{
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 @media screen and (min-width: 768px){
     .flex-row{
@@ -83,12 +79,11 @@
     .small-container{
         width: 60vw;
     }
+    .padding-left{
+        padding-left: 150px;
+    }
 }
 body::-webkit-scrollbar {
     width: 0em;
     background: transparent;
-}
-.small-container{
-    margin: 0 auto;
-    margin-bottom: 20px;
 }
