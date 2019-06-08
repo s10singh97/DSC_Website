@@ -6,7 +6,14 @@
 }
 .social a{
     color: #455a64;
+    transform: all 0.5s ease-in;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
     text-decoration: none;
+}
+.social a:hover{
+    background-color: white;
 }
 .fa-heart{
     color:#e57373;

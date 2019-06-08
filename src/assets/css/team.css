@@ -41,6 +41,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.Image-section img{
+    width: 100%;
+}
 .small-container{
     margin: 0 auto;
     margin-bottom: 20px;

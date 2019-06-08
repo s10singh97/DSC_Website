@@ -22,10 +22,10 @@ class BurgerButton extends Component {
             className={this.state.active ? 'list-container nav-active': 'list-container'}
         >
             <li><Link to="/">Home</Link></li>
-            <li><Link to ="/#about-us">About</Link></li>
             <li><Link to ="/events">Events</Link></li>
             <li><Link to ="/team">Team</Link></li>
             <li><Link to= "/contact">Contact Us</Link></li>
+            <li><Link to ="/#about-us">About</Link></li>
         </ul>
         <div 
             className={this.state.active ? 'burger toggle': 'burger'}
