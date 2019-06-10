@@ -8,6 +8,9 @@
 .white-text{
     color: white;
 }
+.green-900-text{
+    color: #1b5e20; /*green-900*/
+}
 
 /* background-colors */
 .yellow-700{
@@ -43,4 +46,28 @@
 }
 .red-50{
     background-color: #ffebee;
+}
+.red-light{
+    background-color: #f05545;
+}
+.yellow-light{
+    background-color: #fff263;
+}
+.green-light{
+    background-color: #4c8c4a;
+}
+.blue-light{
+    background-color: #5472d3;
+}
+.blue-dark{
+    background-color: #002171;
+}
+.red-dark{
+    background-color: #7f0000;
+}
+.GoogleLoader{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
