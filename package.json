@@ -2,11 +2,13 @@
     "name": "client",
     "version": "0.1.0",
     "private": true,
-    "proxy": "http://localhost:5000/",
+    "proxy": "http://localhost:5000",
     "dependencies": {
+        "axios": "^0.19.0",
         "body-parser": "^1.18.3",
         "dotenv": "^8.0.0",
         "express": "^4.16.4",
+        "mongoose": "^5.5.14",
         "nodemon": "^1.19.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
@@ -20,7 +22,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "server": "cd routes && nodemon server.js",
-        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"npm start\""
+        "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start\""
     },
     "eslintConfig": {
         "extends": "react-app"

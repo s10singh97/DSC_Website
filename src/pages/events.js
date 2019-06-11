@@ -68,7 +68,7 @@ export default class Events extends Component {
                     <div className="event-container">
                       <div className="title2 italic align-center margin-bottom white-text">Android Workshop</div>
                       <div className="event-image margin-bottom">
-                        <img src={require("../assets/images/andy.jpg")} alt="DSC TILE" />
+                        <img src={require("../assets/images/andy.webp")} alt="Andy the Android" />
                       </div>
                       <div className="description roboto align-center">Workshop aimed to make IDE familiar for developers and introduce basic components of android</div>
                     </div>
@@ -76,7 +76,7 @@ export default class Events extends Component {
                     <div className="event-container">
                       <div className="title2 italic align-center margin-bottom white-text">Firebase Workshop</div>
                       <div className="event-image margin-bottom white">
-                        <img src={require("../assets/images/firebase-logo.png")} alt="DSC TILE" />
+                        <img src={require("../assets/images/firebase-logo.webp")} alt="Firebase Logo" />
                       </div>
                       <div className="description roboto align-center">Covered connectivity of Firebase with android application and basic services of Firebase</div>
                     </div>
@@ -88,7 +88,7 @@ export default class Events extends Component {
                     <div className="event-container">
                       <div className="title2 italic align-center margin-bottom white-text">"Make To-Do" Competition</div>
                       <div className="event-image margin-bottom white align-center">
-                        <img style={{width:60 + '%'}} src={require("../assets/images/todo-list.png")} alt="DSC TILE" />
+                        <img style={{width:60 + '%'}} src={require("../assets/images/todo-list.webp")} alt="Todo List" />
                       </div>
                       <div className="description roboto align-center">Competition of making Todo list Android Application.</div>
                     </div>
@@ -96,7 +96,7 @@ export default class Events extends Component {
                     <div className="event-container">
                       <div className="title2 italic align-center margin-bottom white-text">Android Workshop-2<br/>Recyclerview and Asynchronus Task</div>
                       <div className="event-image margin-bottom">
-                        <img src={require("../assets/images/andy.jpg")} alt="DSC TILE"/>
+                        <img src={require("../assets/images/andy.webp")} alt="Andy the Android"/>
                       </div>
                       <div className="description roboto align-center">Covered Recyclerview and Asynchronus Task in Android.</div>
                     </div>

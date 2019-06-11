@@ -31,7 +31,7 @@ export default class Home extends Component {
             <Navbar bgcolor={this.state.isTop ? 'transparent' : 'white'} />
             <div class="hero-container">
             <div class="hero-text">
-                <img src={require("../assets/images/dsc-logo.png")} alt="DSC LOGO"/>
+                <img src={require("../assets/images/dsc-logo.webp")} alt="DSC LOGO"/>
                 <div class="hero-title">Development Student Club</div>
                 <div class="hero-subtitle">IIIT Kota</div>
             </div>
@@ -42,7 +42,7 @@ export default class Home extends Component {
                 <p className="description align-start">Developer Student Clubs (DSC) is a Google Developers program for university students with the aim to train thousands of student developers globally and work with their communities to solve real-life problems.</p>
               </div>
               <div className="image-section">
-                <img src={require("../assets/images/DSC_Tile_v11 no CTA.png")} alt="DSC_TILE"/>
+                <img src={require("../assets/images/DSC_Tile_v11 no CTA.webp")} alt="DSC_TILE"/>
               </div>
             </div>
             {/* section-1-ended */}
@@ -68,7 +68,7 @@ export default class Home extends Component {
                 </div>
               </div>
               <div className="image-section order-1">
-                <img src={require("../assets/images/red-shirt-dev.png") }alt="Red Shirt Developer"/>
+                <img src={require("../assets/images/red-shirt-dev.webp") }alt="Red Shirt Developer"/>
               </div>
             </div>
             {/* section-2-ended */}
@@ -87,16 +87,13 @@ export default class Home extends Component {
                 </div>
               </div>
               <div className="image-section">
-                <img src={require("../assets/images/events.png")} alt="Workshop"/>
+                <img src={require("../assets/images/events.webp")} alt="Workshop"/>
               </div>
             </div>
             {/* section-3-ended */}
             {/* section-4-started */}
             <div className="row-container red-900 justify-start">
-              <div className="image-section">
-                <img src={require("../assets/images/blue-shirt-dev.gif")} alt="Blue Shirt GIF" />
-              </div>
-              <div className="text-section containers-padding margin-left">
+              <div className="text-section containers-padding margin-left order-2">
                 <p className="title">Write us now</p>
                 <p className="description">We are always eager to Help you with your Real-life Problems and listen to your cool ideas.</p>
                 <div style={{display: 'flex'}}>
@@ -105,6 +102,9 @@ export default class Home extends Component {
                     <i className="material-icons white-text">arrow_forward</i>
                   </div>
                 </div>
+              </div>
+              <div className="image-section order-1">
+                <img src={require("../assets/images/blue-shirt-dev.webp")} alt="Blue Shirt GIF" />
               </div>
             </div>
             {/* section-4-end */}
