@@ -61,16 +61,11 @@ body::-webkit-scrollbar {
 .button-container:hover{
     background-color: white;
 }
-.a-container:hover a{
+.button-container:hover a{
     color: black;
 }
-.a-container:hover .material-icons{
+.button-container:hover .material-icons{
     color: black;
-}
-.a-container a{
-    margin-right: 8px;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 .text-container{
     width: 75vw;

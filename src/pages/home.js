@@ -79,13 +79,11 @@ export default class Home extends Component {
                 {/* <p className="description blue-grey-800-text">We have taken initiative to provide development skills in both mobile and web development through various workshops and competitions throughout the year.</p> */}
                 <p className="description blue-grey-800-text">Last year we had organise various Workshops and Competitions on Android Development.</p>
                 <p className="description blue-grey-800-text">We are looking forward target more areas this year, stay Connected with our family.</p> 
-                <div style={{display: 'flex'}} className="a-container">
-                <a href="events" >
+                <div style={{display: 'flex'}}>
                   <div className="button-container yellow-light">
-                    Know more about Events
+                  <a className="black-text" href="events" >Know more about Events</a>
                     <i className="material-icons">arrow_forward</i>
                   </div>
-                  </a>
                 </div>
               </div>
               <div className="image-section">
@@ -98,13 +96,11 @@ export default class Home extends Component {
               <div className="text-section containers-padding margin-left order-2">
                 <p className="title">Write us now</p>
                 <p className="description">We are always eager to Help you with your Real-life Problems and listen to your cool ideas.</p>
-                <div style={{display: 'flex'}} className="a-container">
-                <a className="white-text" href="contact">
+                <div style={{display: 'flex'}}>
                   <div className="button-container red-light">
-                    Contact us
+                    <a className="white-text" href="index.html">Contact us</a>
                     <i className="material-icons white-text">arrow_forward</i>
                   </div>
-                  </a>
                 </div>
               </div>
               <div className="image-section order-1">
@@ -119,13 +115,11 @@ export default class Home extends Component {
                 <div className="description">Developer Student Clubs(DSC) is a Google Developers program for university students to learn mobile and web development skills.Developer Student Clubs train thousands of student developers globally and work with their communities to solve real-life problems.</div>
                 <div class="description">The club will be open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills.</div>
                 <div class="description">Google Developer Clubs can take many forms - from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences. We work on various technical domains and try to make use of Google Technologies to empower the audience around us.</div>
-                <div style={{display: 'flex'}} className="a-container">
-                <a className="white-text" href="index.html" >
+                <div style={{display: 'flex'}}>
                   <div className="button-container blue-grey-800  ">
-                    Know more about us
+                    <a className="white-text" href="index.html">Know more about us</a>
                     <i className="material-icons white-text">arrow_forward</i>
                   </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -138,12 +132,10 @@ export default class Home extends Component {
                 <p className="address">Prabha Bhawan 2nd floor,</p>
                 <p className="address">MNIT Campus,</p>
                 <p className="address">Jaipur 361008.</p>
-                <div style={{display: 'flex'}} className="a-container">
-                <a className="white-text" href="index.html">
+                <div style={{display: 'flex'}}>
                   <div className="button-container black location-button">
-                    Show in Google Maps<i className="material-icons white-text">send</i>
+                    <a className="white-text" href="index.html">Show in Google Maps</a><i className="material-icons white-text">send</i>
                   </div>
-                  </a>
                 </div>
               </div>
             </div>
