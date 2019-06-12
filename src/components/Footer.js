@@ -6,11 +6,9 @@ export default function Footer() {
         <div className="containers-padding blue-grey-100">
         <div className="footer-title">Follow us on</div>
         <div className="social">
-          <a href="##" className="fa fa-facebook" />
-          <a href="##" className="fa fa-linkedin"/>
-          <a href="##" className="fa fa-instagram"/>
-          <a href="##" className="fa fa-slack"/>
-          <a href="##" className="fa fa-github"/>
+          <a href="https://www.facebook.com" className="fa fa-facebook" />
+          <a href="https://www.instagram.com/" className="fa fa-instagram"/>
+          <a href="https://www.github.com/" className="fa fa-github"/>
         </div>
         <div className="footer-title small-text blue-grey-800">
           <div>© 2019 - DSC IIITK</div> 
